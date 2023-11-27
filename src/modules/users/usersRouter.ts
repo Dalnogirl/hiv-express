@@ -23,7 +23,6 @@ usersRouter.get("/:id", async (req, res) => {
 
 usersRouter.post(
   "/",
-//   zValidator("json", createUserValidationSchema),
   async (req,res) => {
     const { name, email, password } = req.body
     const message = await UsersService.createUser(

@@ -1,5 +1,5 @@
 
-import express, { Express, Request, Response , Application } from 'express';
+import express, { Application } from 'express';
 import dotenv from 'dotenv';
 import { usersRouter } from './src/modules/users/usersRouter';
 //For env File 
