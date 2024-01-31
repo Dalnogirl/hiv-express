@@ -49,7 +49,7 @@ export const getUserById = async (
 
   return user;
 };
-type GelAllUsersDiParam = {
+export type GelAllUsersDiParam = {
   selectAllUsers: () => Promise<
     { success: true; users: User[] } | { success: false }
   >;
